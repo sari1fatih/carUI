@@ -71,10 +71,14 @@ export default function Buy() {
 
                     </Grid>
                     <Grid item xs={12}>
+                        <Typography color="textSecondary" sx={{ mt: 3 }} variant="body2">
+                            Uzunluk 3 den büyükse MyTransactions tablosuna eklerken hata verir. Eklediği Buy tablosunu da geri alır.
+                        </Typography>
                         <Typography color="textPrimary" sx={{ mb: 1 }} variant="subtitle2">
                             Not
                         </Typography>
                         <TextField fullWidth name="message" required multiline rows={6} variant="outlined" onChange={handleChange} />
+
                     </Grid>
                 </Grid>
                 <Box
