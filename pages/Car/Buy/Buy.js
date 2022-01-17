@@ -15,13 +15,6 @@ export default function Buy() {
         setSendData(mergedObject)
     }
 
-    function jsonConcat(o1, o2) {
-        for (var key in o2) {
-            o1[key] = o2[key];
-        }
-        return o1;
-    }
-
     return (
         <div>
             <Paper sx={{ p: 2, margin: 'auto', maxWidth: '60%', flexGrow: 1 }}>
